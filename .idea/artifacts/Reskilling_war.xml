@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Reskilling:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>false</exploded>
+        <module>Reskilling</module>
+        <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
+      </options>
+    </properties>
+    <root id="archive" name="Reskilling-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Reskilling:war exploded" />
+    </root>
+  </artifact>
+</component>
